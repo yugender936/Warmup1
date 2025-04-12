@@ -1,0 +1,5 @@
+public String backAround(String str) {
+   String str1 = "";
+   str1 = str1 + str.charAt(str.length()-1) + str.substring(0,str.length()) + str.charAt(str.length()-1);
+   return str1;
+}
