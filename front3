@@ -1,0 +1,12 @@
+public String front3(String str) {
+   String str1 = "";
+   if(str.length() < 3){
+     String str2 = str.substring(0,str.length());
+     str1 = str1 + str2 + str2 + str2; 
+   }
+   else{
+     String str2 = str.substring(0,3);
+     str1 = str1 + str2 + str2 + str2;
+   }
+   return str1;
+}
