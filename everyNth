@@ -1,0 +1,9 @@
+public String everyNth(String str, int n) {
+   int i = 0;
+   String str1 = "";
+   while(i < str.length()){
+     str1 = str1 + str.charAt(i);
+     i = i+n;
+   }
+   return str1;
+}
